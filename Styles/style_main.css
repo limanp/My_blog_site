@@ -15,11 +15,12 @@ main{
     display: flex;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.7);
-    height: 50px;
+    height: 70px;
 }
 .buttons{
-    width: 400x;
+   
     align-self: flex-end; 
+    font-size: 30px;
 }
 .menu_button{
     display: inline-block;
