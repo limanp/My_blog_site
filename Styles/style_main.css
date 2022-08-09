@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(Montserrat-Bold.woff);
+}
+body{
+    margin: 0;
+    font-family: Montserrat;
+}
+main{
+    background-image: url("../Images/background.jpg");
+    height: 900px;
+    background-size:cover;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 50px;
+}
+.buttons{
+    width: 400x;
+    align-self: flex-end; 
+}
+.menu_button{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+}
+a:hover{
+    background-color: rgb(222, 222, 222);
+}
