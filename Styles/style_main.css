@@ -5,21 +5,16 @@
 body{
     margin: 0;
     font-family: Montserrat;
-}
-main{
-    background-image: url("../Images/background.jpg");
-    height: 900px;
-    background-size:cover;
+    background-color: rgb(28, 28, 28);
 }
 .menu{
-    display: flex;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    height: 70px;
+    padding: 10px;
+    background-color: rgb(26, 26, 26);
+    border-bottom: solid  rgb(176, 176, 176) 1px;
 }
 .buttons{
-    align-self: flex-end; 
-    font-size: 30px;
+    font-size: 20px;
+    min-width: 481px;
 }
 .menu_button{
     display: inline-block;
