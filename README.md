@@ -15,6 +15,18 @@ My university is Zhytomyr Polytechnic University</h3>
 ![Google](https://img.shields.io/badge/google-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
-<h1>GitHub Profile Trophy</h1>
+<h1>About the project</h1>
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=limanp-ma&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
+In this project, I am developing my blog site.<br>
+The project is designed to develop skills in working with html and css.<br>
+
+<ul>This blog will:
+  <li>Brief information about me.</li>
+  <li>What books I currently studying and what books have I completed.</li>
+  <li>My goals that I want to achieve</li>
+</ul>
+
+
+<h1>Longest streak stats</h1>
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=limanp)](https://git.io/streak-stats)
