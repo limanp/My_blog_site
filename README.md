@@ -2,7 +2,7 @@
 <div align="center"><img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" alt="gif-image" height="300"></div>
 
 <h3 align="center">Student Software Engineer<br>
-My university is Zhytomyr Polytechnic University</h3>
+Zhytomyr Polytechnic University</h3>
 
 ![](https://komarev.com/ghpvc/?username=limanp)
 
