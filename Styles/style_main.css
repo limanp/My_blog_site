@@ -8,6 +8,9 @@ body{
     background-color: rgb(28, 28, 28);
 }
 .menu{
+    display: flex;
+    justify-content: center;
+    min-width: 630px;
     padding: 10px;
     background-color: rgb(26, 26, 26);
     border-bottom: solid  rgb(176, 176, 176) 1px;
@@ -17,7 +20,7 @@ body{
     min-width: 481px;
 }
 .menu_button{
-    display: inline-block;
+    display: inline-flex;
     padding: 10px;
     text-decoration: none;
     background-color: rgba(255, 255, 255, 0.7);
