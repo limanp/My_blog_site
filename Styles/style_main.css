@@ -14,6 +14,7 @@ body{
     padding: 10px;
     background-color: rgb(26, 26, 26);
     border-bottom: solid  rgb(176, 176, 176) 1px;
+    font-weight: bold;
 }
 .buttons{
     font-size: 20px;
