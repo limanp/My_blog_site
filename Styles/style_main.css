@@ -13,8 +13,12 @@ body{
     min-width: 630px;
     padding: 10px;
     background-color: rgb(26, 26, 26);
-    border-bottom: solid  rgb(176, 176, 176) 1px;
+    
     font-weight: bold;
+}
+main > div:not(:first-child){
+    border-top: solid  rgb(176, 176, 176) 1px;;
+    border-bottom: solid  rgb(176, 176, 176) 1px;
 }
 .buttons{
     font-size: 20px;
@@ -29,4 +33,18 @@ body{
 }
 a:hover{
     background-color: rgb(222, 222, 222);
+}
+
+ul {
+    padding-left: 2rem;
+    list-style-type: none;
+}
+ul li {
+    padding-left: 2rem;
+    padding-top: 2px;
+    margin-bottom: 5px;
+    background-image: url("../Images/Icons/Icon_arrow.svg");
+    background-position: 0 0;
+    background-size: 1.5rem 1.5rem;
+    background-repeat: no-repeat;
 }
