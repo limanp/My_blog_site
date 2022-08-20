@@ -1,18 +1,32 @@
 @font-face {
     font-family: 'Montserrat';
-    src: url(Montserrat-Bold.woff);
+    src: url(/Font/Montserrat-Bold.woff);
 }
 body{
     margin: 0;
     font-family: Montserrat;
-    background-color: rgb(28, 28, 28);
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+@keyframes gradient {
+    0%{
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 .menu{
     display: flex;
     justify-content: center;
     min-width: 630px;
     padding: 10px;
-    background-color: rgb(26, 26, 26);
+    background-color: rgba(26, 26, 26, 0.7);
     
     font-weight: bold;
 }
