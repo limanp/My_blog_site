@@ -1,14 +1,23 @@
 .button1 {
+    opacity: 0;
     animation-duration: 3s;
+    animation-delay: 2s;
     animation-name: slidein;
+    animation-fill-mode: forwards;
 }
 .button2 {
+    opacity: 0;
     animation-duration: 3s;
+    animation-delay: 2s;
     animation-name: slidein;
+    animation-fill-mode: forwards;
 }
 .button3 {
+    opacity: 0;
     animation-duration: 3s;
+    animation-delay: 2s;
     animation-name: slidein;
+    animation-fill-mode: forwards;
 }
 
 @keyframes slidein {
@@ -24,16 +33,25 @@
 
 
 .logo1{
+    opacity: 0;
     animation-duration: 3s;
+    animation-delay: 2s;
     animation-name: Con-Icon;
+    animation-fill-mode: forwards;
 }
 .logo2{
+    opacity: 0;
     animation-duration: 3s;
+    animation-delay: 2s;
     animation-name: Con-Icon;
+    animation-fill-mode: forwards;
 }
 .logo3{
+    opacity: 0;
     animation-duration: 3s;
+    animation-delay: 2s;
     animation-name: Con-Icon;
+    animation-fill-mode: forwards;
 }
 
 
@@ -50,8 +68,11 @@
 
 
 .Icon-header {
+    opacity: 0;
     animation-duration: 3s;
+    animation-delay: 2s;
     animation-name: Logo;
+    animation-fill-mode: forwards;
 }
 
 @keyframes Logo {
@@ -61,6 +82,20 @@
     }
     to {
         transform: rotate(0deg);
+        opacity: 1;
+    }
+}
+
+body{
+    animation-duration: 3s;
+    animation-name: load;
+}
+
+@keyframes load{
+    from{
+        opacity: 0;
+    }
+    to{
         opacity: 1;
     }
 }
