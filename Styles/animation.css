@@ -1,0 +1,66 @@
+.button1 {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+.button2 {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+.button3 {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-right: 50px;
+        opacity: 0;
+    }
+    to {
+        margin-right: 10px;
+        opacity: 1;
+    }
+}
+
+
+.logo1{
+    animation-duration: 3s;
+    animation-name: Con-Icon;
+}
+.logo2{
+    animation-duration: 3s;
+    animation-name: Con-Icon;
+}
+.logo3{
+    animation-duration: 3s;
+    animation-name: Con-Icon;
+}
+
+
+@keyframes Con-Icon{
+    from {
+        margin-top: 100px;
+        opacity: 0;
+    }
+    to {
+        margin-top: 0px;
+        opacity: 1;
+    }
+}
+
+
+.Icon-header {
+    animation-duration: 3s;
+    animation-name: Logo;
+}
+
+@keyframes Logo {
+    from {
+        transform: rotate(180deg);
+        opacity: 0;
+    }
+    to {
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+}

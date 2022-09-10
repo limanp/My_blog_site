@@ -6,7 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Styles/style_main.css">
+    <link rel="stylesheet" href="Styles/animation.css">
     <title>Home</title>
+    <style>
+        .Content {
+            animation-duration: 3s;
+            animation-name: s;
+        }
+
+        @keyframes s{
+            from {
+                margin-left: 100px;
+                opacity: 0;
+            }
+            to {
+                margin-left: 40px;
+                opacity: 1;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -14,13 +32,13 @@
         <header class="Header">
             <div class="Icon-header"></div>
             <div class="Menu">
-                    <a href="about_me.html">ABOUT ME</a>
-                    <a href="my_goals.html">MY GOALS</a>
-                    <a href="books.html">BOOKS I STUDY</a>
+                    <a class="button1" href="about_me.html">ABOUT ME</a>
+                    <a class="button2" href="my_goals.html">MY GOALS</a>
+                    <a class="button3" href="books.html">BOOKS I STUDY</a>
             </div>
         </header>
-            <div>
-                <div style="color: white;  margin-top: 50px; margin-left: 40px;">
+            <div class="c1">
+                <div class="Content" style="color: white;  margin-top: 50px; margin-left: 40px;">
                     <p style="margin-left: 45px; font-size: 14px;">
                         Welcome to our
                     </p>
@@ -29,7 +47,7 @@
                         <div style="margin-left: 80px; color: rgb(13, 116, 233)">PROGRAMMER'S</div>
                         <div style="margin-left: 120px;">BLOG</div>
                     </div>
-                    <p style="margin-left: 120px; font-size: 14px;">
+                    <p style="margin-left: 125px; font-size: 14px;">
                         This blog was created for the purpose of self-development.<br>
                         More details can be found on other pages.
                     </p>
@@ -42,12 +60,9 @@
     </main>
     
     <div class="Rigth-Tab">
-        <a href="index.html" class="Home"><img src="./Images/Icons/home_white.png" alt="home"></a>
-        <a href="https://www.instagram.com/1qer.1/"><img src="./Images/Icons/instagram_white.png" alt="home"></a>
-        <a href="https://www.facebook.com/profile.php?id=100070044131226"><img src="./Images/Icons/facebook_white.png" alt="home"></a>
-
-        
-        
+        <a class="logo1" href="index.html" class="Home"><img src="./Images/Icons/home_white.png" alt="home"></a>
+        <a class="logo2" href="https://www.instagram.com/1qer.1/"><img src="./Images/Icons/instagram_white.png" alt="home"></a>
+        <a class="logo3" href="https://www.facebook.com/profile.php?id=100070044131226"><img src="./Images/Icons/facebook_white.png" alt="home"></a>        
     </div>
     
 </body>
