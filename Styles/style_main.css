@@ -35,10 +35,6 @@ body{
     text-decoration: none;
     color: white;
 }
-a:hover {
-    color: white;
-    opacity: 0.5;
-}
 
 main{
    width: 100%;
@@ -49,9 +45,6 @@ main{
     width: 50px;
     height: 50px;
     margin: 10px;
-    background-image: url(../Images/Logo.png);
-    background-position: center;
-    background-size: cover;
 }
 
 .Rigth-Tab {

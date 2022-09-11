@@ -1,21 +1,21 @@
 .button1 {
     opacity: 0;
     animation-duration: 3s;
-    animation-delay: 2s;
+    animation-delay: 1s;
     animation-name: slidein;
     animation-fill-mode: forwards;
 }
 .button2 {
     opacity: 0;
     animation-duration: 3s;
-    animation-delay: 2s;
+    animation-delay: 1s;
     animation-name: slidein;
     animation-fill-mode: forwards;
 }
 .button3 {
     opacity: 0;
     animation-duration: 3s;
-    animation-delay: 2s;
+    animation-delay: 1s;
     animation-name: slidein;
     animation-fill-mode: forwards;
 }
@@ -35,21 +35,21 @@
 .logo1{
     opacity: 0;
     animation-duration: 3s;
-    animation-delay: 2s;
+    animation-delay: 1s;
     animation-name: Con-Icon;
     animation-fill-mode: forwards;
 }
 .logo2{
     opacity: 0;
     animation-duration: 3s;
-    animation-delay: 2s;
+    animation-delay: 1s;
     animation-name: Con-Icon;
     animation-fill-mode: forwards;
 }
 .logo3{
     opacity: 0;
     animation-duration: 3s;
-    animation-delay: 2s;
+    animation-delay: 1s;
     animation-name: Con-Icon;
     animation-fill-mode: forwards;
 }
@@ -70,7 +70,7 @@
 .Icon-header {
     opacity: 0;
     animation-duration: 3s;
-    animation-delay: 2s;
+    animation-delay: 1s;
     animation-name: Logo;
     animation-fill-mode: forwards;
 }
@@ -87,7 +87,7 @@
 }
 
 body{
-    animation-duration:4s;
+    animation-duration: 1s;
     animation-name: load;
     background-image:none;
 }
@@ -95,10 +95,8 @@ body{
 @keyframes load{
     from{
         opacity: 0;
-        background-image: url(../Images/back_body.gif);
     }
     to{
         opacity: 1;
-        background-image: url(../Images/back_body.gif);
     }
 }
