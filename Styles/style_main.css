@@ -50,7 +50,7 @@ main{
 .Rigth-Tab {
     display: flex;
     flex-direction: column;
-    padding-top: 21%;
+    padding-top: 270px;
     max-width: 50px;
 }
 .Rigth-Tab img{
